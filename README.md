@@ -4,7 +4,9 @@
 This project has two parts
 * A web interface
 * Android app
+
 Both are build using flutter, the android app use flutter http to create a local server on android device and the web interface is integrated with it which recieve the data from the android app's server.
+
 By using this dual system mobile device's file management, contacts and SMS are read and managed by using a browser on any device running the browser using local wifi.
 
 The purpose of this app is to make a secure local file sharing and management application for daily usage and file transfer and sharing.
