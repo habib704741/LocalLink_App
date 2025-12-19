@@ -1,6 +1,13 @@
 ## LocalLink
 
 **LocalLink** is an Android application that empowers users to manage and control their smartphones through a locally hosted web interface. LocalLink operates on local wifi , ensuring that all user data and operations remain confined to the device.
+This project has two parts
+* A web interface
+* Android app
+Both are build using flutter, the android app use flutter http to create a local server on android device and the web interface is integrated with it which recieve the data from the android app's server.
+By using this dual system mobile device's file management, contacts and SMS are read and managed by using a browser on any device running the browser using local wifi.
+
+The purpose of this app is to make a secure local file sharing and management application for daily usage and file transfer and sharing.
 
 ## 🚀 Key Features
 
@@ -10,6 +17,8 @@
 * **Device Info:** Show device informations like battery percentage and storage usage.
 * **Contacts List:** Provides access to contacts saved in mobile device.
 * **SMS Read:** Provides seamless access to read sms on the device.
+* **Video Streaming** Stream android device's videos on web browser of PCs.
+* **Download Files** Download the files on android devices directly to PC using browser.
 * **Secure Access:** All communication is encrypted and restricted to the local network.
 * **Responsive Dashboard:** A clean dashboard on both android app and web interface to view system information and manage content.
 
@@ -22,22 +31,18 @@
 
 ## 📸 Screenshots (Mobile app)
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/68d1682d-fe2b-41c2-beee-16e41f941220" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2c90b7cc-1c8a-4645-a66b-269ab7e7735d" />
 
-<img width="1890" height="1044" alt="image" src="https://github.com/user-attachments/assets/6d957bf7-6fd3-49d8-a3a8-70b19dc3334e" />
-
-<img width="1920" height="1079" alt="image" src="https://github.com/user-attachments/assets/9b29d51c-2d6b-49ca-9900-aee5cfd852fe" />
-
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f063a432-a75f-4b55-be46-86f428356658" />
 
 ## 📸 Screenshots (Web interface)
 
-<img width="1919" height="1080" alt="image" src="https://github.com/user-attachments/assets/d5d55657-9a73-4fe2-aad2-0c5a044b6fb9" />
+<img width="1920" height="1079" alt="image" src="https://github.com/user-attachments/assets/e0123ce0-5ddf-4508-9e36-7ad8f8228998" />
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3a697e5c-72eb-4120-b295-f1f8c44dcf6e" />
+<img width="1919" height="1077" alt="image" src="https://github.com/user-attachments/assets/079fdf46-601b-4628-b48b-d2ee9f0da700" />
 
 ## Combined Screenshots
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/722465df-63d6-4979-86c9-b752cb7aa141" />
+<img width="1912" height="1059" alt="image" src="https://github.com/user-attachments/assets/59aeae11-a931-4d20-b049-d3646b484db7" />
 
-<img width="1911" height="1064" alt="image" src="https://github.com/user-attachments/assets/32ae6b5a-1f03-470f-b0e8-f9a2e79e7751" />
-
+<img width="1920" height="1076" alt="image" src="https://github.com/user-attachments/assets/2aa1be88-9905-407a-a4ad-c68c1aecd2ca" />
